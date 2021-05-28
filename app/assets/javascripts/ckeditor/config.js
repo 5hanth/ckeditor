@@ -33,6 +33,7 @@ CKEDITOR.editorConfig = function( config )
 
   config.allowedContent = true;
   config.filebrowserUploadMethod = 'form';
+  config.fontSize_sizes = '8/8px;16/16px;24/24px;48/48px;';
 
   // Toolbar groups configuration.
   config.toolbar = [
