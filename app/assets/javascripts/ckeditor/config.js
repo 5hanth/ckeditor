@@ -34,7 +34,8 @@ CKEDITOR.editorConfig = function( config )
   config.allowedContent = true;
   config.filebrowserUploadMethod = 'form';
   config.fontSize_sizes = '8/8px;16/16px;24/24px;48/48px;';
-
+  config.format_tags =  'p;h1;h2;h3;h4;h5;h6;pre;address;div'
+  
   // Toolbar groups configuration.
   config.toolbar = [
     { name: 'document', groups: [ 'mode', 'document', 'doctools' ], items: [ 'Source'] },
